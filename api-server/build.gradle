@@ -1,0 +1,12 @@
+bootJar { enabled = true }
+jar { enabled = false }
+
+dependencies {
+    implementation project(':domain')
+    implementation project(':adapter:web:kakao')
+    implementation project(':adapter:web:naver')
+    implementation project(':adapter:rdb')
+
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+}

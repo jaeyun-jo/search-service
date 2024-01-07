@@ -1,0 +1,10 @@
+rootProject.name = 'search-service'
+include 'adapter'
+include 'adapter:web'
+include 'adapter:web:client-core'
+include 'adapter:web:kakao'
+include 'adapter:web:naver'
+include 'domain'
+include 'adapter:rdb'
+include 'api-server'
+

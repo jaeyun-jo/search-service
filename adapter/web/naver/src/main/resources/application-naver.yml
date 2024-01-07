@@ -1,0 +1,17 @@
+hosts:
+  naver:
+    naver-search-api:
+      url: https://openapi.naver.com
+feign:
+  client:
+    config:
+      naver:
+        read-timeout: 1000
+        connect-timeout: 1000
+        default-request-headers:
+          X-Naver-Client-Id: HRHszw4Z7Rfh6t8FyE25
+          X-Naver-Client-Secret: jTccvgV9WV
+  httpclient:
+    enabled: true
+    max-connections-per-route: 300
+    max-connections: 300

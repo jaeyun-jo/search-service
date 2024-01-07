@@ -1,0 +1,16 @@
+hosts:
+  kakao:
+    kakao-search-api:
+      url: dapi.kakao.com
+feign:
+  client:
+    config:
+      kakao:
+        read-timeout: 1000
+        connect-timeout: 1000
+        default-request-headers:
+          Authorization: KakaoAK 0d2a8704d6970a83b94d623f12251746
+  httpclient:
+    enabled: true
+    max-connections-per-route: 300
+    max-connections: 300

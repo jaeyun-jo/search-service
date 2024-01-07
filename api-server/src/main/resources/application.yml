@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    include:
+      - rdb
+      - kakao
+      - naver
