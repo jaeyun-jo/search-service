@@ -1,0 +1,27 @@
+HELP.md
+.DS_Store
+.gradle
+**/build/**
+**/out/**
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+*.MF
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+*/out/
+build
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### General ###
+*.log
